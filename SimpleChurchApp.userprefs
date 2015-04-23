@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="iOS/SimpleChurchApp.iOS.csproj" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimpleChurchApp/TabbedPages/SmallGroupPage.cs">
+    <Files>
+      <File FileName="SimpleChurchApp/SimpleChurchApp.cs" Line="1" Column="1" />
+      <File FileName="SimpleChurchApp/SimpleChurchTabbedPage.cs" Line="1" Column="1" />
+      <File FileName="SimpleChurchApp/TabbedPages/SermonPage.cs" Line="1" Column="1" />
+      <File FileName="SimpleChurchApp/TabbedPages/AboutPage.cs" Line="1" Column="1" />
+      <File FileName="SimpleChurchApp/TabbedPages/SmallGroupPage.cs" Line="1" Column="1" />
+      <File FileName="Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="SimpleChurchApp/TabbedPages/HomePage.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/anthonylowther/Github/SimpleChurchApp/SimpleChurchApp/SimpleChurchTabbedPage.cs" line="35" column="26" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

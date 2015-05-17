@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChurchApp", "SimpleChurchApp\SimpleChurchApp.csproj", "{587128C8-F842-4A5B-B0B8-C488E64A6EEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XForms", "SimpleChurchApp\XForms.csproj", "{587128C8-F842-4A5B-B0B8-C488E64A6EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChurchApp.iOS", "iOS\SimpleChurchApp.iOS.csproj", "{51CB184F-2BE5-42EA-85E3-C357C51D13B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOS", "iOS\iOS.csproj", "{51CB184F-2BE5-42EA-85E3-C357C51D13B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChurchApp.Droid", "Droid\SimpleChurchApp.Droid.csproj", "{9548A040-82BA-46C0-B62B-A23790C3EAB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid", "Droid\Droid.csproj", "{9548A040-82BA-46C0-B62B-A23790C3EAB7}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SimpleChurchApp.Shared", "SimpleChurchAppShared\SimpleChurchApp.Shared.shproj", "{1427A09B-8AF7-468D-B019-BABCA15B9930}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "SimpleChurchAppShared\Shared.shproj", "{1427A09B-8AF7-468D-B019-BABCA15B9930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

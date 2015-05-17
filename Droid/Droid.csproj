@@ -85,9 +85,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SimpleChurchApp\SimpleChurchApp.csproj">
+    <ProjectReference Include="..\SimpleChurchApp\XForms.csproj">
       <Project>{587128C8-F842-4A5B-B0B8-C488E64A6EEA}</Project>
-      <Name>SimpleChurchApp</Name>
+      <Name>XForms</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -26,6 +26,7 @@ namespace SimpleChurchApp
 									ImageSource.FromFile("Images/ide-xamarin-studio.png")),
 							Text = "Doing Good Stuff",
 							Detail = "We will go to the place with the people and do the things that people need in order to make them feel how they should",
+
 						},
 
 						new ImageCell
@@ -63,6 +64,8 @@ namespace SimpleChurchApp
 					}
 				}
 			};
+
+			tableView.Root.
 
 			Content = tableView;
 		}

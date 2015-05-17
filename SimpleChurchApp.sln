@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChurchApp.iOS", "iOS\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleChurchApp.Droid", "Droid\SimpleChurchApp.Droid.csproj", "{9548A040-82BA-46C0-B62B-A23790C3EAB7}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SimpleChurchApp.Shared", "SimpleChurchAppShared\SimpleChurchApp.Shared.shproj", "{1427A09B-8AF7-468D-B019-BABCA15B9930}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

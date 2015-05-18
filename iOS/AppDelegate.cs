@@ -28,19 +28,7 @@ namespace SimpleChurchApp.iOS
 			// create a new window instance based on the screen size
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 
-			// If you have defined a root view controller, set it here:
-			// window.RootViewController = myViewController;
-
-			UITabBarController tabBar = new UITabBarController ();
-			UIView view1 = new UIView () { BackgroundColor = UIColor.Red };
-			UIViewController viewController1 = new UIViewController ();
-			viewController1.Title = "Page 1";
-			viewController1.View = view1;
-
-
-			tabBar.ViewControllers = new UIViewController[] { viewController1 };
-
-			window.RootViewController = tabBar;
+			window.RootViewController = new UINavigationController( new TabController () );
 
 			// make the window visible
 			window.MakeKeyAndVisible ();

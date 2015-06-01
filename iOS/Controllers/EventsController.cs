@@ -6,23 +6,30 @@ namespace SimpleChurchApp.iOS
 {
 	public class EventsController : DialogViewController
 	{
-		public EventsController () : base (UITableViewStyle.Plain, new RootElement("Events"), true)
+		public EventsController () : base (UITableViewStyle.Grouped, null, true)
 		{
 			UIView sectionHeader = new UIView ();
 			sectionHeader.Frame = new CoreGraphics.CGRect (0, 0, this.TableView.Frame.Width, 20);
 			UILabel label = new UILabel (sectionHeader.Frame) { BackgroundColor = UIColor.Orange };
 			sectionHeader.Add (label);
 			label.Text = "HEY SECTIONS!";
-			Section section = new Section (sectionHeader);
-			this.Title = "Events";
 
-			StyledStringElement stringelement = new StyledStringElement ("HELLO WORLD!");
-			stringelement.Accessory = UITableViewCellAccessory.DisclosureIndicator;
 
-			for (int i = 0; i < 25; i++)
-				section.Add (stringelement);
+			var root = new RootElement ("Events"){
+				new Section (sectionHeader){
+					new RootElement ("First level", 0, 0) {
+						new Section (null, "This is the first level."){
+							new RootElement ("Second level", 0, 0) {
+								new Section (null, "This is the second level."){
+									new BooleanElement ("Flipflops", false)
+								}
+							}
+						}
+					}}
+			};
 
-			Root.Add (section);
+			this.Root = root;
+
 		}
 	}
 }

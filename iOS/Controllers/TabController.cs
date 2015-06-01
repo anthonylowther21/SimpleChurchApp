@@ -8,6 +8,7 @@ namespace SimpleChurchApp.iOS
 		public TabController ()
 		{
 			AboutController aboutController = new AboutController ();
+			//UINavigationController eventsController = new UINavigationController (new EventsController ());
 			EventsController eventsController = new EventsController ();
 			HomeController homeController = new HomeController ();
 			SermonsController sermonsController = new SermonsController ();

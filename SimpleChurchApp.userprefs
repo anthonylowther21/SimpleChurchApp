@@ -1,17 +1,11 @@
 ﻿<Properties StartupItem="iOS/iOS.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.2" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Controllers/ChurchEventsDetailController.cs">
     <Files>
-      <File FileName="SimpleChurchApp/SimpleChurchApp.cs" Line="11" Column="63" />
-      <File FileName="SimpleChurchApp/SimpleChurchTabbedPage.cs" Line="10" Column="3" />
-      <File FileName="SimpleChurchApp/TabbedPages/SermonPage.cs" Line="1" Column="1" />
-      <File FileName="SimpleChurchApp/TabbedPages/AboutPage.cs" Line="1" Column="1" />
-      <File FileName="SimpleChurchApp/TabbedPages/SmallGroupPage.cs" Line="1" Column="1" />
-      <File FileName="Droid/Properties/AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="SimpleChurchApp/TabbedPages/HomePage.cs" Line="60" Column="52" />
-      <File FileName="SimpleChurchApp/TabbedPages/EventPage.cs" Line="68" Column="19" />
-      <File FileName="iOS/Info.plist" />
-      <File FileName="iOS/AppDelegate.cs" Line="12" Column="83" />
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="14" />
+      <File FileName="iOS/Controllers/ChurchEventsController.cs" Line="26" Column="74" />
+      <File FileName="iOS/Controllers/ChurchEventsDetailController.cs" Line="32" Column="6" />
+      <File FileName="SimpleChurchAppShared/ChurchEvent.cs" Line="3" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
